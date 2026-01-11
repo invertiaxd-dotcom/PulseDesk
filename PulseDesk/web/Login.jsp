@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PulseDesk Login</title>
+</head>
+<body>
+    <h2>PulseDesk</h2>
+
+    <form action="login" method="post">
+        Username:
+        <input type="text" name="username" required />
+        <br><br>
+        <input type="submit" value="Login" />
+    </form>
+</body>
+</html>

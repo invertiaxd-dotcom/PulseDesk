@@ -4,9 +4,17 @@
         <servlet-name>heyServelet</servlet-name>
         <servlet-class>heyServelet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>authFltr</servlet-name>
+        <servlet-class>filters.authFltr</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>heyServelet</servlet-name>
         <url-pattern>/heyServelet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>authFltr</servlet-name>
+        <url-pattern>/authFltr</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
